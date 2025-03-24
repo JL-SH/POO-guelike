@@ -1,0 +1,324 @@
+{
+    "character": {
+        "name": "Juan",
+        "typeCharacterName": "TANK",
+        "maxHealth": 90,
+        "health": 90,
+        "attack": 45,
+        "defense": 70,
+        "specialAttack": 25,
+        "specialDefense": 60,
+        "speed": 15,
+        "ability": "HEAVYWEIGHT",
+        "inventory": {
+            "items": [
+                {
+                    "class": "Bombs",
+                    "name": "ExplosiveKebab",
+                    "damage": 30,
+                    "description": "Boom boom for 30 damage",
+                    "probability": 40
+                }
+            ],
+            "resources": [
+                {
+                    "class": "ValuableResources",
+                    "name": "Silver",
+                    "points": 2,
+                    "probability": 80
+                }
+            ]
+        },
+        "damageMultiplier": 1,
+        "multiplierTurns": 0
+    },
+    "dungeons": [
+        {
+            "name": "SHATTERED_SANCTUM",
+            "level": 1,
+            "rooms": [
+                {
+                    "boss": false,
+                    "name": "WEEPING_CHAMBER",
+                    "enemies": [
+                        {
+                            "class": "Goblin",
+                            "name": "ROSA_MELANO",
+                            "type": "Goblin",
+                            "typeMonsters": "GOBLIN"
+                        },
+                        {
+                            "class": "Skeleton",
+                            "name": "ELBA_LASTIMA",
+                            "type": "Skeleton",
+                            "typeMonsters": "SKELETON"
+                        }
+                    ],
+                    "loot": {
+                        "first": [
+                            {
+                                "class": "Potion",
+                                "name": "HealthPotion",
+                                "healing": 20,
+                                "description": "Heals you 20 health",
+                                "probability": 55
+                            },
+                            {
+                                "class": "Equipment",
+                                "name": "IronSword",
+                                "stat": "ATTACK",
+                                "boost": 5,
+                                "probability": 30
+                            },
+                            {
+                                "class": "Equipment",
+                                "name": "SpeedyBoots",
+                                "stat": "SPEED",
+                                "boost": 10,
+                                "probability": 30
+                            }
+                        ],
+                        "second": [
+                            {
+                                "class": "ValuableResources",
+                                "name": "Gold",
+                                "points": 5,
+                                "probability": 50
+                            },
+                            {
+                                "class": "ValuableResources",
+                                "name": "Silver",
+                                "points": 2,
+                                "probability": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "boss": false,
+                    "name": "THE_ASHEN_BARRACKS",
+                    "enemies": [
+                        {
+                            "class": "Skeleton",
+                            "name": "TOMAS_TURBA",
+                            "type": "Skeleton",
+                            "typeMonsters": "SKELETON"
+                        },
+                        {
+                            "class": "Skeleton",
+                            "name": "ELBA_LASTIMA",
+                            "type": "Skeleton",
+                            "typeMonsters": "SKELETON"
+                        },
+                        {
+                            "class": "Goblin",
+                            "name": "ESTEBAN_DATO",
+                            "type": "Goblin",
+                            "typeMonsters": "GOBLIN"
+                        },
+                        {
+                            "class": "Spider",
+                            "name": "DOLORES_DEL_ANO",
+                            "type": "Spider",
+                            "typeMonsters": "SPIDER"
+                        }
+                    ],
+                    "loot": {
+                        "first": [
+                            {
+                                "class": "Bombs",
+                                "name": "ExplosiveKebab",
+                                "damage": 30,
+                                "description": "Boom boom for 30 damage",
+                                "probability": 40
+                            }
+                        ],
+                        "second": [
+                            {
+                                "class": "ValuableResources",
+                                "name": "Silver",
+                                "points": 2,
+                                "probability": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "boss": false,
+                    "name": "THE_ECLIPSED_REST",
+                    "enemies": [
+                        {
+                            "class": "Skeleton",
+                            "name": "ELBA_LASTIMA",
+                            "type": "Skeleton",
+                            "typeMonsters": "SKELETON"
+                        },
+                        {
+                            "class": "Skeleton",
+                            "name": "DIXON_MAYAS",
+                            "type": "Skeleton",
+                            "typeMonsters": "SKELETON"
+                        }
+                    ],
+                    "loot": {
+                        "first": [
+                            {
+                                "class": "Potion",
+                                "name": "HealthPotion",
+                                "healing": 20,
+                                "description": "Heals you 20 health",
+                                "probability": 55
+                            },
+                            {
+                                "class": "Equipment",
+                                "name": "SpeedyBoots",
+                                "stat": "SPEED",
+                                "boost": 10,
+                                "probability": 30
+                            }
+                        ],
+                        "second": [
+                            {
+                                "class": "ValuableResources",
+                                "name": "Gold",
+                                "points": 5,
+                                "probability": 50
+                            },
+                            {
+                                "class": "ValuableResources",
+                                "name": "Silver",
+                                "points": 2,
+                                "probability": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "boss": false,
+                    "name": "THE_VENGEFUL_GLADE",
+                    "enemies": [
+                        {
+                            "class": "Skeleton",
+                            "name": "ANA_BOHUELES",
+                            "type": "Skeleton",
+                            "typeMonsters": "SKELETON"
+                        },
+                        {
+                            "class": "Spider",
+                            "name": "CESAR_HINCHADO",
+                            "type": "Spider",
+                            "typeMonsters": "SPIDER"
+                        },
+                        {
+                            "class": "Spider",
+                            "name": "ELBA_GINA",
+                            "type": "Spider",
+                            "typeMonsters": "SPIDER"
+                        }
+                    ],
+                    "loot": {
+                        "first": [
+                            {
+                                "class": "Enchantments",
+                                "name": "MagicRage",
+                                "multiplier": 2,
+                                "description": "Gain x2 damage multiplier",
+                                "probability": 25
+                            },
+                            {
+                                "class": "Equipment",
+                                "name": "MagicAmulet",
+                                "stat": "SPECIAL_DEFENSE",
+                                "boost": 7,
+                                "probability": 30
+                            }
+                        ],
+                        "second": [
+                            {
+                                "class": "ValuableResources",
+                                "name": "Gold",
+                                "points": 5,
+                                "probability": 50
+                            },
+                            {
+                                "class": "ValuableResources",
+                                "name": "Emerald",
+                                "points": 7,
+                                "probability": 30
+                            }
+                        ]
+                    }
+                },
+                {
+                    "boss": true,
+                    "name": "HALLS_OF_MOURNING",
+                    "enemies": [
+                        {
+                            "class": "Dragon",
+                            "name": "CESAR_HINCHADO",
+                            "type": "Blue-Eyed Dragon",
+                            "typeMonsters": "DRAGON"
+                        }
+                    ],
+                    "loot": {
+                        "first": [
+                            {
+                                "class": "Potion",
+                                "name": "HealthPotion",
+                                "healing": 20,
+                                "description": "Heals you 20 health",
+                                "probability": 55
+                            },
+                            {
+                                "class": "Bombs",
+                                "name": "ExplosiveKebab",
+                                "damage": 30,
+                                "description": "Boom boom for 30 damage",
+                                "probability": 40
+                            },
+                            {
+                                "class": "Equipment",
+                                "name": "SteelArmor",
+                                "stat": "DEFENSE",
+                                "boost": 7,
+                                "probability": 30
+                            }
+                        ],
+                        "second": [
+                            {
+                                "class": "ValuableResources",
+                                "name": "Gold",
+                                "points": 5,
+                                "probability": 50
+                            }
+                        ]
+                    }
+                }
+            ],
+            "currentRoomIndex": 1
+        }
+    ],
+    "currentDungeonIndex": 0,
+    "runAway": false,
+    "exit": false,
+    "defeated": false,
+    "inventory": {
+        "items": [
+            {
+                "class": "Bombs",
+                "name": "ExplosiveKebab",
+                "damage": 30,
+                "description": "Boom boom for 30 damage",
+                "probability": 40
+            }
+        ],
+        "resources": [
+            {
+                "class": "ValuableResources",
+                "name": "Silver",
+                "points": 2,
+                "probability": 80
+            }
+        ]
+    }
+}
